@@ -1,20 +1,22 @@
-body {
-  font: 20px, "Times New Roman", serif;
-background-color: azure
+body { /* applies to the whole body of the page */
+  font: 20px, "Times New Roman", serif;   /* sets all text to 20pt font times new roman */
+background-color: azure /*sets whole background to this color that one might fine on a wall*/
 }
 
 h1 {
-    text-align: center
+    text-align: end
 }
-h2 {
-  color: forestgreen;
+h2 { /*centers and makes green some of my headers */
+  color: forestgreen; 
   text-align: center;
 }
 
-p {
-  font-size: 20px;
+p { /* Adds a cool looking border and increases the side of all text not in heading or list */
+    font-size: 20px;
+  border-width: 5px;
+  border-style: dotted
 }
 
 li{
-    color: darkslategray
+    color: darkslategray /* makes lists stand out a bit*/
 }
